@@ -25,7 +25,7 @@ namespace ManageSales.Controllers
         [HttpGet]
         public IEnumerable<string> Get(int idOrder)
         {
-            return new string[] { "ok", "up" };
+            return new string[] { "ok", "up","here" };
         }
 
         [HttpPost]
